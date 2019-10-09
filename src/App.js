@@ -11,8 +11,8 @@ import {Provider} from './context'
 
 
 class App extends Component {
-  render() {
-    return (
+  render() {    
+    return (      
       <Provider>
       <Router>
       <React.Fragment>
@@ -20,7 +20,7 @@ class App extends Component {
          <div className="container">
             <Switch>
                 <Route exact path="/" component={Index}/>
-                 <Route exact path="/lyrics/track/:id" component={Lyrics}></Route>
+                <Route exact path="/lyrics/track/:id" component={Lyrics}></Route>             
             </Switch> 
          </div>
       </React.Fragment>

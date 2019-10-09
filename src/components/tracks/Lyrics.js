@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import Spinner from '../layout/Spinner'
 import {Link} from 'react-router-dom'
+import Playsong from './Playsong'
 //import Moment from 'react-moment';
 
 class Lyrics extends Component {
@@ -40,7 +41,8 @@ class Lyrics extends Component {
             <React.Fragment>
             <Link to="/" className="btn btn-dark btn-sm mb-4">
               Go Back
-            </Link>
+            </Link>            
+            <Playsong/>
             <div className="card">
               <h5 className="card-header">
                 {track.track_name} by{' '}
