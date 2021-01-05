@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "amplitudejs": "^5.0.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-moment": "^0.8.4",
